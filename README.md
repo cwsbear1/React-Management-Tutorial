@@ -1,5 +1,10 @@
 ## Management System
 본 프로젝트는 React 강의 목적으로 만들어진 고객 관리 시스템입니다.
+------------------------------
+git remote add origin https://github.com/cwsbear1/React-Management-Tutorial.git
+Create Customer.js
+git push --set-upstream origin master
+-------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
