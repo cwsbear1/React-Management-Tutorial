@@ -6,6 +6,8 @@ git remote add origin https://github.com/cwsbear1/React-Management-Tutorial.git
 Create Customer.js
 
 git push --set-upstream origin master
+user : cwsbear1
+pass : mygirlcws1
 -------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
