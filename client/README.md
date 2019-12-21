@@ -9,6 +9,36 @@ git push --set-upstream origin master
 user : cwsbear1
 pass : mygirlcws1
 -------------------------------
+-------------------------------
+* 2019/12/21
+===================
+ PS D:\a-BTS\prj\management> node server.js
+internal/modules/cjs/loader.js:800
+    throw err;
+    ^
+
+Error: Cannot find module 'express'
+Require stack:
+- D:\a-BTS\prj\management\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (D:\a-BTS\prj\management\server.js:1:17)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1047:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\a-BTS\\prj\\management\\server.js' ]
+}
+PS D:\a-BTS\prj\management> node server.js
+=====================
+
+  npm install express --save
+  npm install body-parser --save
+  node server.js
+--------------------------------------------------  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
