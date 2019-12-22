@@ -39,6 +39,16 @@ PS D:\a-BTS\prj\management> node server.js
   npm install body-parser --save
   node server.js
 --------------------------------------------------  
+----------------------
+* 2019/12/22
+* this.callApi()
+      .then(res => this.setState({ customers: res }))
+      .catch(err => console.log(err));
+*AWS
+user
+mygirl12!
+---------------------
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
